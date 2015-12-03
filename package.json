@@ -1,0 +1,34 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "基于webpack的前端工程化开发解决方案探索",
+  "main": "index.js",
+  "scripts": {
+    "test": "null"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xiaoyunchen/webpack.git"
+  },
+  "keywords": [
+    "webpack",
+    "前端工程化",
+    "web",
+    "JavaScript"
+  ],
+  "author": "https://github.com/xiaoyunchen/webpack",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xiaoyunchen/webpack/issues"
+  },
+  "homepage": "https://github.com/xiaoyunchen/webpack",
+  "devDependencies": {
+    "css-loader": "^0.23.0",
+    "extract-text-webpack-plugin": "^0.9.1",
+    "html-webpack-plugin": "^1.7.0",
+    "jquery": "^1.11.3",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  }
+}
