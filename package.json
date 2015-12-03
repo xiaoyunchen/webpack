@@ -1,6 +1,6 @@
 {
   "name": "webpack",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "基于webpack的前端工程化开发解决方案探索",
   "main": "index.js",
   "scripts": {
