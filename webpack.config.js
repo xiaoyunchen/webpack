@@ -15,7 +15,8 @@ module.exports={
     module: {
         loaders: [	//加载器
             {test: /\.css$/, loader:ExtractTextPlugin.extract("style", "css") },
-            {test: /\.html$/, loader: "html" }
+            {test: /\.html$/, loader: "html" },
+            {test: /\.(png|jpg)$/, loader: 'url-loader?limit=8192&name=./img/[hash].[ext]'}
         ]
     },
     plugins:[

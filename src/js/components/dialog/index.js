@@ -6,7 +6,7 @@
 	
 	module.exports=function(text){
 		$('body').append(html);
-		$('.dialog:last-child').html(text);
+		$('.dialog>span').last().text(text);
 	};
 	
 })();

@@ -98,12 +98,12 @@
 	/* WEBPACK VAR INJECTION */(function($) {//引入CSS
 	__webpack_require__(2);
 	__webpack_require__(6);
-	__webpack_require__(8);
+	__webpack_require__(9);
 
 	//增加事件
 	$('#btn').click(function(){
 		__webpack_require__.e/* nsure */(1, function(require){
-			var Dialog=__webpack_require__(10);
+			var Dialog=__webpack_require__(11);
 			new Dialog(new Date()-0);
 		});
 	});
@@ -10793,7 +10793,8 @@
 
 /***/ },
 /* 7 */,
-/* 8 */
+/* 8 */,
+/* 9 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin

@@ -9,18 +9,19 @@ webpackJsonp([1],[
 /* 7 */,
 /* 8 */,
 /* 9 */,
-/* 10 */
+/* 10 */,
+/* 11 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function($) {(function(){
 		//加载模块CSS
-		__webpack_require__(11);
+		__webpack_require__(12);
 		//加载模板
-		var html=__webpack_require__(13);
+		var html=__webpack_require__(14);
 		
 		module.exports=function(text){
 			$('body').append(html);
-			$('.dialog:last-child').html(text);
+			$('.dialog>span').last().text(text);
 		};
 		
 	})();
@@ -30,13 +31,13 @@ webpackJsonp([1],[
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 11 */
+/* 12 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(12);
+	var content = __webpack_require__(13);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(5)(content, {});
@@ -56,7 +57,7 @@ webpackJsonp([1],[
 	}
 
 /***/ },
-/* 12 */
+/* 13 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(4)();
@@ -70,10 +71,16 @@ webpackJsonp([1],[
 
 
 /***/ },
-/* 13 */
-/***/ function(module, exports) {
+/* 14 */
+/***/ function(module, exports, __webpack_require__) {
 
-	module.exports = "<div class=\"dialog\">\n\t\n</div>\r\n";
+	module.exports = "<div class=\"dialog\">\n\t<span></span>\n\t<img src=\"" + __webpack_require__(15) + "\" />\n</div>\r\n";
+
+/***/ },
+/* 15 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "./img/f903e75e14c494cbd6eeba1dc1480dbb.jpg";
 
 /***/ }
 ]);
